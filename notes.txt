@@ -1,13 +1,14 @@
 resources:
-  - pinterest api pins: https://developers.pinterest.com/docs/api/pins/
-  - pinterest get started: https://developers.pinterest.com/docs/api/overview/?
-  - stackoverflow get request in javascript:
-    https://stackoverflow.com/questions/247483/http-get-request-in-javascript
-  - get GET parameters in javascript: https://stackoverflow.com/questions/831030/how-to-get-get-request-parameters-in-javascript
-  - jQuery api reference: http://api.jquery.com/
-  - local storage: https://coderwall.com/p/ewxn9g/storing-and-retrieving-objects-with-localstorage-html5
-  - boostrap repo (I used a template named cover: see docs/examples/cover for template) https://github.com/twbs/bootstrap/tree/v3-dev
-  - keeping image aspect ratio: https://stackoverflow.com/questions/12991351/css-force-image-resize-and-keep-aspect-ratio
+  javascript - pull down content from social media
+    - pinterest api pins: https://developers.pinterest.com/docs/api/pins/
+    - pinterest get started: https://developers.pinterest.com/docs/api/overview/?
+    - stackoverflow get request in javascript:
+      https://stackoverflow.com/questions/247483/http-get-request-in-javascript
+    - get GET parameters in javascript: https://stackoverflow.com/questions/831030/how-to-get-get-request-parameters-in-javascript
+    - jQuery api reference: http://api.jquery.com/
+    - local storage: https://coderwall.com/p/ewxn9g/storing-and-retrieving-objects-with-localstorage-html5
+    - boostrap repo (I used a template named cover: see docs/examples/cover for template) https://github.com/twbs/bootstrap/tree/v3-dev
+    - keeping image aspect ratio: https://stackoverflow.com/questions/12991351/css-force-image-resize-and-keep-aspect-ratio
 
   php - list language names
     - http://php.net/manual/en/function.json-decode.php
