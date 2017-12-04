@@ -1,0 +1,9 @@
+# ignore all node stuff because I just use it for eslint
+node_modules
+package*.json
+
+# ignore vim swap files
+*.swp
+
+# ignore zip files
+*.zip

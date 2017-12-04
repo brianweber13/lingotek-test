@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Recent Pins</title>
+    <!-- jQuery -->
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+          crossorigin="anonymous">
+
+    <!-- custom css for bootstrap theme 'cover' -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+
+          <!--
+            <div class="masthead clearfix">
+            <div class="inner">
+            <h3 class="masthead-brand">Cover</h3>
+            <nav>
+            <ul class="nav masthead-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+            </nav>
+            </div>
+            </div>
+          -->
+
+          <div class="inner cover">
+            <h1>Part 1: pull down content from a social network</h1>
+
+            <p class="lead">
+            <a
+               class="btn btn-default" 
+               href="https://api.pinterest.com/oauth/?response_type=code&client_id=4937253126393572047&redirect_uri=https://lingotek-test.herokuapp.com/&scope=read_public"
+               >Authorize This Application</a>
+            <button
+               class="btn btn-default"
+               onclick="displayRecentPins()">Display Your Most Recent Pins</button>
+            <div id=recent-pins>
+            </div>
+            </p>
+
+            <h1>Part 2: output language names given a JSON</h1>
+            <p class="lead">
+            <a class="btn btn-default" href="language-names.php">Output Language Names</a>
+
+            <!--<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+              </p>-->
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- include custom script -->
+    </script><script src='recent-pinterest-pins.js'></script> 
+  </body>
+</html>
